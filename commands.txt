@@ -1,0 +1,571 @@
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d
+$ git clone https://github.com/Sybatron/Softuni-FirstRepo-Homework
+Cloning into 'Softuni-FirstRepo-Homework'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d
+$ ls
+'$RECYCLE.BIN'/   Git/        Softuni-FirstRepo-Homework/   while.txt
+ DEVS/            Setup/     'System Volume Information'/
+ DEVS.zip         Setup.zip   VANKO/
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d
+$ ls -al
+total 29061
+drwxr-xr-x 1 Sybatron 197609        0 Feb  3 23:51 '$RECYCLE.BIN'/
+drwxr-xr-x 1 Sybatron 197609        0 Apr  3 16:34  ./
+drwxr-xr-x 1 Sybatron 197609        0 Feb 26 20:55  ../
+drwxr-xr-x 1 Sybatron 197609        0 Feb  4 00:02  DEVS/
+-rw-r--r-- 1 Sybatron 197609 24381296 Feb  3 23:48  DEVS.zip
+drwxr-xr-x 1 Sybatron 197609        0 Mar  7 00:25  Git/
+drwxr-xr-x 1 Sybatron 197609        0 Feb  4 02:09  Setup/
+-rw-r--r-- 1 Sybatron 197609  5364990 Feb  3 23:46  Setup.zip
+drwxr-xr-x 1 Sybatron 197609        0 Apr  3 16:34  Softuni-FirstRepo-Homework/
+drwxr-xr-x 1 Sybatron 197609        0 Feb 14 15:51 'System Volume Information'/
+drwxr-xr-x 1 Sybatron 197609        0 Feb  3 23:52  VANKO/
+-rw-r--r-- 1 Sybatron 197609       94 Mar  4 10:19  while.txt
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d
+$ tal 29061
+bash: tal: command not found
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d
+$ tal 29061
+bash: tal: command not found
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d
+$ tal 29061
+bash: tal: command not found
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d
+$ tal 29061
+bash: tal: command not found
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d
+$ cd Softuni-FirsRepo-Homework
+bash: cd: Softuni-FirsRepo-Homework: No such file or directory
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d
+$ cd Softuni-FirstRepo-Homework
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ ls
+README.md
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ mkdir test.txt
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ ls
+README.md  test.txt/
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ cd test.txt
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework/test.txt (master)
+$ ls
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework/test.txt (master)
+$ help
+GNU bash, version 4.4.23(1)-release (x86_64-pc-msys)
+These shell commands are defined internally.  Type `help' to see this list.
+Type `help name' to find out more about the function `name'.
+Use `info bash' to find out more about the shell in general.
+Use `man -k' or `info' to find out more about commands not in this list.
+
+A star (*) next to a name means that the command is disabled.
+
+ job_spec [&]                            history [-c] [-d offset] [n] or hist>
+ (( expression ))                        if COMMANDS; then COMMANDS; [ elif C>
+ . filename [arguments]                  jobs [-lnprs] [jobspec ...] or jobs >
+ :                                       kill [-s sigspec | -n signum | -sigs>
+ [ arg... ]                              let arg [arg ...]
+ [[ expression ]]                        local [option] name[=value] ...
+ alias [-p] [name[=value] ... ]          logout [n]
+ bg [job_spec ...]                       mapfile [-d delim] [-n count] [-O or>
+ bind [-lpsvPSVX] [-m keymap] [-f file>  popd [-n] [+N | -N]
+ break [n]                               printf [-v var] format [arguments]
+ builtin [shell-builtin [arg ...]]       pushd [-n] [+N | -N | dir]
+ caller [expr]                           pwd [-LPW]
+ case WORD in [PATTERN [| PATTERN]...)>  read [-ers] [-a array] [-d delim] [->
+ cd [-L|[-P [-e]] [-@]] [dir]            readarray [-n count] [-O origin] [-s>
+ command [-pVv] command [arg ...]        readonly [-aAf] [name[=value] ...] o>
+ compgen [-abcdefgjksuv] [-o option] [>  return [n]
+ complete [-abcdefgjksuv] [-pr] [-DE] >  select NAME [in WORDS ... ;] do COMM>
+ compopt [-o|+o option] [-DE] [name ..>  set [-abefhkmnptuvxBCHP] [-o option->
+ continue [n]                            shift [n]
+ coproc [NAME] command [redirections]    shopt [-pqsu] [-o] [optname ...]
+ declare [-aAfFgilnrtux] [-p] [name[=v>  source filename [arguments]
+ dirs [-clpv] [+N] [-N]                  suspend [-f]
+ disown [-h] [-ar] [jobspec ... | pid >  test [expr]
+ echo [-neE] [arg ...]                   time [-p] pipeline
+ enable [-a] [-dnps] [-f filename] [na>  times
+ eval [arg ...]                          trap [-lp] [[arg] signal_spec ...]
+ exec [-cl] [-a name] [command [argume>  true
+ exit [n]                                type [-afptP] name [name ...]
+ export [-fn] [name[=value] ...] or ex>  typeset [-aAfFgilnrtux] [-p] name[=v>
+ false                                   ulimit [-SHabcdefiklmnpqrstuvxPT] [l>
+ fc [-e ename] [-lnr] [first] [last] o>  umask [-p] [-S] [mode]
+ fg [job_spec]                           unalias [-a] name [name ...]
+ for NAME [in WORDS ... ] ; do COMMAND>  unset [-f] [-v] [-n] [name ...]
+ for (( exp1; exp2; exp3 )); do COMMAN>  until COMMANDS; do COMMANDS; done
+ function name { COMMANDS ; } or name >  variables - Names and meanings of so>
+ getopts optstring name [arg]            wait [-n] [id ...]
+ hash [-lr] [-p pathname] [-dt] [name >  while COMMANDS; do COMMANDS; done
+ help [-dms] [pattern ...]               { COMMANDS ; }
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework/test.txt (master)
+$ echo Something
+Something
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework/test.txt (master)
+$ cd ..
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ cd test.txt
+bash: cd: test.txt: Not a directory
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ echo test.txt Hi
+test.txt Hi
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ help echo
+echo: echo [-neE] [arg ...]
+    Write arguments to the standard output.
+
+    Display the ARGs, separated by a single space character and followed by a
+    newline, on the standard output.
+
+    Options:
+      -n        do not append a newline
+      -e        enable interpretation of the following backslash escapes
+      -E        explicitly suppress interpretation of backslash escapes
+
+    `echo' interprets the following backslash-escaped characters:
+      \a        alert (bell)
+      \b        backspace
+      \c        suppress further output
+      \e        escape character
+      \E        escape character
+      \f        form feed
+      \n        new line
+      \r        carriage return
+      \t        horizontal tab
+      \v        vertical tab
+      \\        backslash
+      \0nnn     the character whose ASCII code is NNN (octal).  NNN can be
+                0 to 3 octal digits
+      \xHH      the eight-bit character whose value is HH (hexadecimal).  HH
+                can be one or two hex digits
+
+    Exit Status:
+    Returns success unless a write error occurs.
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ echo hi test.txt
+hi test.txt
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ echo "hi" "test.txt"
+hi test.txt
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ echo hi > test.txt
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ echo Updating with Bash... > test.txt
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        test.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ git add .
+warning: LF will be replaced by CRLF in test.txt.
+The file will have its original line endings in your working directory
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ git add -A
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ git commit -m "Update with Bash"
+[master 228c91f] Update with Bash
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test.txt
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 308 bytes | 154.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Sybatron/Softuni-FirstRepo-Homework
+   8a66483..228c91f  master -> master
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ help echo
+echo: echo [-neE] [arg ...]
+    Write arguments to the standard output.
+
+    Display the ARGs, separated by a single space character and followed by a
+    newline, on the standard output.
+
+    Options:
+      -n        do not append a newline
+      -e        enable interpretation of the following backslash escapes
+      -E        explicitly suppress interpretation of backslash escapes
+
+    `echo' interprets the following backslash-escaped characters:
+      \a        alert (bell)
+      \b        backspace
+      \c        suppress further output
+      \e        escape character
+      \E        escape character
+      \f        form feed
+      \n        new line
+      \r        carriage return
+      \t        horizontal tab
+      \v        vertical tab
+      \\        backslash
+      \0nnn     the character whose ASCII code is NNN (octal).  NNN can be
+                0 to 3 octal digits
+      \xHH      the eight-bit character whose value is HH (hexadecimal).  HH
+                can be one or two hex digits
+
+    Exit Status:
+    Returns success unless a write error occurs.
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ echo \n Update with Tortoise... > test.txt
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ echo \n > text.txt
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ echo pesho > text.txt
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ echo \nPesho > test.txt
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   test.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ git add -A
+warning: LF will be replaced by CRLF in test.txt.
+The file will have its original line endings in your working directory
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ git add test.txt
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   test.txt
+
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ git commit -m "Creating with Tortoise..."
+[master 2782e8f] Creating with Tortoise...
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   test.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ git add -A
+warning: LF will be replaced by CRLF in test.txt.
+The file will have its original line endings in your working directory
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ git add -A
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ git commit -m "Creating with Bash"
+[master fe8c67f] Creating with Bash
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 597 bytes | 149.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/Sybatron/Softuni-FirstRepo-Homework
+   228c91f..fe8c67f  master -> master
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ cd e:
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /e
+$ git clone https://github.com/Sybatron/Softuni-FirstRepo-Homework
+Cloning into 'Softuni-FirstRepo-Homework'...
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 12 (delta 0), reused 9 (delta 0), pack-reused 0
+Unpacking objects: 100% (12/12), done.
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /e
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /e
+$ ls
+'$RECYCLE.BIN'/   Fortnite/
+ ApexLegends/     ORGIN_GAMES/
+ ASTRONEER/      'Party Hard'/
+ Broforce/       'Party Hard 2'/
+ Config.Msi/      Softuni-FirstRepo-Homework/
+'Cool Games'/     SteamLibrary/
+ Cuphead/        'System Volume Information'/
+'Dead Cells'/     The.Binding.of.Isaac.Afterbirth.Plus.Update.13/
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /e
+$ cd Softuni-FirstRepo-Homework
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /e/Softuni-FirstRepo-Homework (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   test.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /e/Softuni-FirstRepo-Homework (master)
+$ git add -A
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /e/Softuni-FirstRepo-Homework (master)
+$ git push
+Everything up-to-date
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /e/Softuni-FirstRepo-Homework (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   test.txt
+
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /e/Softuni-FirstRepo-Homework (master)
+$ git commit -m "Update-Creating with Tortoise"
+[master ba51d24] Update-Creating with Tortoise
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /e/Softuni-FirstRepo-Homework (master)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 322 bytes | 161.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Sybatron/Softuni-FirstRepo-Homework
+   fe8c67f..ba51d24  master -> master
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /e/Softuni-FirstRepo-Homework (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   test.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /e/Softuni-FirstRepo-Homework (master)
+$ pwd
+/e/Softuni-FirstRepo-Homework
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /e/Softuni-FirstRepo-Homework (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   test.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /e/Softuni-FirstRepo-Homework (master)
+$ git add -A
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /e/Softuni-FirstRepo-Homework (master)
+$ git commit -m "Update with Tortoise"
+[master 72a24d6] Update with Tortoise
+ 1 file changed, 1 insertion(+)
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /e/Softuni-FirstRepo-Homework (master)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 320 bytes | 160.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+cTo https://github.com/Sybatron/Softuni-FirstRepo-Homework
+   ba51d24..72a24d6  master -> master
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /e/Softuni-FirstRepo-Homework (master)
+$ cd
+
+Sybatron@DESKTOP-5N96SDC MINGW64 ~
+$ cd d:
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d
+$ cd D:/Softuni-FirstRepo-Homework
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   test.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ git add -A
+warning: LF will be replaced by CRLF in test.txt.
+The file will have its original line endings in your working directory
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ git commit -m "Update with Bash"
+[master 71ca1cd] Update with Bash
+ 1 file changed, 1 insertion(+)
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ git push
+To https://github.com/Sybatron/Softuni-FirstRepo-Homework
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/Sybatron/Softuni-FirstRepo-Homework'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ git pull
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 6 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), done.
+From https://github.com/Sybatron/Softuni-FirstRepo-Homework
+   fe8c67f..72a24d6  master     -> origin/master
+Auto-merging test.txt
+CONFLICT (content): Merge conflict in test.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master|MERGING)
+$ git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 2 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+        both modified:   test.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master|MERGING)
+$ git add -A
+warning: LF will be replaced by CRLF in test.txt.
+The file will have its original line endings in your working directory
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master|MERGING)
+$ git add -A
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master|MERGING)
+$ git commit -m "Merge between Bash and Tortoise"
+[master a3b6483] Merge between Bash and Tortoise
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$ git push
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 645 bytes | 161.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/Sybatron/Softuni-FirstRepo-Homework
+   72a24d6..a3b6483  master -> master
+
+Sybatron@DESKTOP-5N96SDC MINGW64 /d/Softuni-FirstRepo-Homework (master)
+$
